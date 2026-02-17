@@ -18,6 +18,15 @@ To complicate matters, you have several thousand of these images, and they’re 
 
 So how do we detect the transition between text and image, using Python?
 
+## Plex scripts
+*plex_overseer_title_fetch.py*
+
+Fetches the title of the TV shows on a Plex server setup.
+
+
+
+
+
 ## Reddit History Wiper
 _Please note that this script no longer works, after Reddit made some changes to their API_
 
