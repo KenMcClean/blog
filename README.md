@@ -22,10 +22,9 @@ So how do we detect the transition between text and image, using Python?
 *plex_overseer_title_fetch.py*
 
 Fetches the title of the TV shows on a Plex server setup.
+*plex_auth.py*
 
-
-
-
+Used to authenticate against the Plex server, required by all other Plex scripts in this repository.
 
 ## Reddit History Wiper
 _Please note that this script no longer works, after Reddit made some changes to their API_
