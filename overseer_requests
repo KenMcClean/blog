@@ -1,0 +1,39 @@
+import json
+
+import requests
+
+session_obj = requests.Session()
+
+page_size = 20
+
+plex_url = ""
+
+# Step 1: Get login page and receive connect.sid
+session_obj.get(f"{plex_url}/login")
+
+# Step 2: Post Plex auth
+payload = {"authToken": "<authTokenValue>"}
+resp = session_obj.post("f{plex_url}/api/v1/auth/plex", json=payload)
+#Authenticate against Overseerr with a Plex token
+
+reqs = session_obj.get(f"{plex_url}/api/v1/request?take=20&skip=0")
+#Make the initial GET request from the requests API
+
+reqs_json = json.loads(reqs.text)
+#Load the resulting text into a JSON object
+
+num_pages = reqs_json["pageInfo"]["pages"]
+#Get the total number of pages
+
+skip_val = 0
+#Start paginating at zero
+
+while skip_val <= reqs_json["pageInfo"]["results"]:
+    #While the current page #
+    current_page_req = session_obj.get(f"{plex_url}/api/v1/request?take={page_size}&skip={skip_val}")
+    current_page_json = json.loads(current_page_req.text)
+
+    for line in current_page_json["results"]:
+        print(line)
+    print(f"page # {skip_val}")
+    skip_val = skip_val + page_size
