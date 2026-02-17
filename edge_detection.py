@@ -21,7 +21,7 @@ Significant changes in edge intensity are determined, by establishing a threshol
 The resulting values are plotted over the image, in order to visually display the results that the script has found for each image.
 
 So, in short, we convert the image to grayscale, determine how drastic the difference between each row of pixels is, and pick a row that represents our needs.
-'''
+''' 
 
 
 
