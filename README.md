@@ -1,5 +1,8 @@
 
 # ARS GRATIA ARTIS
+Little or no justfication is provided for many of these scripts.  I wrote them simply to see if I could. 
+
+
 
 ## Banana Bread
 *banana_bread.txt*
