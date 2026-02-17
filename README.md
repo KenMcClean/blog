@@ -1,5 +1,6 @@
 ## Banana Bread
 *banana_bread.txt*
+
 It's a recipe for banana bread.  It's also my love letter to the importance of being precise.
 
 ## Edge Detection
