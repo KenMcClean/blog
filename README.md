@@ -19,7 +19,8 @@ To complicate matters, you have several thousand of these images, and they’re 
 So how do we detect the transition between text and image, using Python?
 
 ## Reddit History Wiper
-### Please note that this script no longer works, after Reddit made some changes to their API
+_Please note that this script no longer works, after Reddit made some changes to their API_
+
 *reddit_account_wiper.py*
 
 This script utilizes the undocumented Reddit "Shreddit" API to first overwrite, then delete the history of a Reddit account.
