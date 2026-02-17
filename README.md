@@ -1,3 +1,6 @@
+
+# ARS GRATIA ARTIS
+
 ## Banana Bread
 *banana_bread.txt*
 
@@ -17,3 +20,8 @@ So how do we detect the transition between text and image, using Python?
 *reddit_account_wiper.py*
 
 This script utilizes the undocumented Reddit "Shreddit" API to first overwrite, then delete the history of a Reddit account.
+
+## YouTube Comment Wiper
+*youtube_comment_wiper.js*
+
+This is a script that runs in the browser console, and deletes all of the comments that the logged-in YouTube account has made.
