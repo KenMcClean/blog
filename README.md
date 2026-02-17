@@ -18,9 +18,14 @@ Here’s the challenge: there’s an image that consists of a white background, 
 *plex_overseer_title_fetch.py*
 
 Fetches the title of the TV shows on a Plex server setup.
+
 *plex_auth.py*
 
 Used to authenticate against the Plex server, required by all other Plex scripts in this repository.
+
+*overseer_requests.py*
+
+Fetches the list of requests from the Plex Overseer system.
 
 ## Reddit History Wiper
 _Please note that this script no longer works, after Reddit made some changes to their API_
