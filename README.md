@@ -17,7 +17,7 @@ Here’s the challenge: there’s an image that consists of a white background, 
 
 ## OpenAir ETL Without API Access
 
-*openair_without_api.py*
+*openair_without_api.md*
 
 How do you ETL data from a source for which you have no official API access?  And what if that data is also locked behind an Okta login?
 
