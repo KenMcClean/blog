@@ -3,11 +3,16 @@
 Little or no justfication is provided for many of these scripts.  I wrote them simply to see if I could. 
 
 
-
 ## Banana Bread
 *banana_bread.txt*
 
 It's a recipe for banana bread.  It's also my love letter to the importance of being precise.
+
+## Bitly API and Python
+
+*bitly_api_python.md*
+
+Using the Bitly API to generate a shortened link to a URL.
 
 ## Edge Detection
 *edge_detection.py*
