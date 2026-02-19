@@ -14,6 +14,13 @@ It's a recipe for banana bread.  It's also my love letter to the importance of b
 
 Here’s the challenge: there’s an image that consists of a white background, black text, and an inner image underneath.   How do we detect the transition between text and image, using Python?
 
+
+## OpenAir ETL Without API Access
+
+*openair_without_api.py*
+
+How do you ETL data from a source for which you have no official API access?  And what if that data is also locked behind an Okta login?
+
 ## Plex scripts
 *plex_overseer_title_fetch.py*
 
