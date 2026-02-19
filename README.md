@@ -1,6 +1,6 @@
 
 # ARS GRATIA ARTIS
-Little or no justfication is provided for many of these scripts.  I wrote them simply to see if I could. 
+Everything is permitted. Nothing is impossible. 
 
 
 ## Banana Bread
